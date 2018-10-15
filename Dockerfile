@@ -11,6 +11,7 @@ RUN apt-get -q update && apt-get install -qy \
 
 RUN npm install -g --unsafe-perm homebridge
 RUN npm install -g --unsafe-perm homebridge-wemo
+RUN npm install -g --unsafe-perm homebridge-homematic
 
 RUN mkdir -p /var/run/dbus
 
